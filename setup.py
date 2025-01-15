@@ -8,7 +8,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Arulkumaran S',
     author_email='sarulkumaran.21042004@gmail.com',
-    url='https://github.com/arul637/HaulEncryptor',  
+    url='https://github.com/arul637/Encryptor',  
     packages=find_packages(),
     install_requires=[
         'pycryptodome',   # For AES encryption and PBKDF2
