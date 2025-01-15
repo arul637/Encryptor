@@ -53,7 +53,7 @@ class Encryptor:
     def decrypt(self, filename, key, iv):
         try:
             cipher = AES.new(key, AES.MODE_CBC, iv)
-            with open(file=filename, mode="rb") as input_file, open(file=f"{str(filename).replace(".enc", "")}", mode="wb") as output_file: 
+            with open(file=filename, mode="rb") as input_file, open(file=f"{str(filename).replace('.enc', '')}", mode="wb") as output_file: 
                 
                 while True:
                     chunk = input_file.read(self.CHUNK_SIZE)
