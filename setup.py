@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='haul',
+    name='encryptor',
     version='0.1',
     description='A Python-based file encryption and decryption toolkit.',
     long_description=open('README.md').read(),
