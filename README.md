@@ -25,7 +25,7 @@
 To install Haul, you can either clone the repository or install it directly using pip from PyPI. 
 
 ```
-pip install encryptor
+pip install HaulEnc
 ```
 
 ## Use Case Example
