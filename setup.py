@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='haul',
-    version='0.0.1',
+    version='0.1',
     description='A Python-based file encryption and decryption toolkit.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
